@@ -1,0 +1,168 @@
+.bg_netflix {
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg_kashmir {
+    background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg_purple {
+    background: linear-gradient(to left, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg_skyline {
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg_insta {
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg_vine {
+    background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg_twitch {
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.p-none {
+    padding: 0;
+}
+.vh-10 {
+    max-height: 10vh;
+}
+.vh-90 {
+    max-height: 90vh;
+}
+.section_shares {
+    padding: 70px 0 70px 0;
+}
+.shares {
+    padding-top: 30px;
+}
+.services_wrapper {
+    
+}
+.services {
+    padding: 70px 0 70px 0;
+}
+.services_title {
+    margin-bottom: 40px;
+}
+.thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+}
+.gallery {
+    
+    padding: 40px 0 40px;
+}
+.comment_main {
+    padding: 70px;
+}
+.img_50 {
+    border-radius: 50%;
+    height: 25vh;
+}
+.contacts {
+    padding: 70px 0 70px 0;
+    
+}
+.nav_phone {
+    padding-right: 10px;
+}
+.nav_icons {
+    font-size: 25px;
+}
+.phone {
+    margin-right: 10px;
+}
+.share_item i {
+    font-size: 50px;
+}
+.section_booking {
+    padding: 70px 0 70px 0;
+}
+
+.testimonial{
+    background: #fff;
+    text-align: center;
+    padding: 40px 20%;
+    border-radius: 5px;
+   }
+   .testimonial .pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+   }
+   .testimonial .pic img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+   }
+   .testimonial .testimonial-title{
+    font-size: 16px;
+    color: #9e9e9e;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+   }
+   .testimonial .post{
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    color: #bcbcbc;
+    margin-top: 10px;
+    text-transform: uppercase;
+   }
+   .testimonial .description{
+    font-size: 15px;
+    font-style: italic;
+    color: #86868a;
+    line-height: 1.8;
+    margin-top: 10px;
+   }
+   .owl-theme .owl-controls{
+    width: 100%;
+    position: absolute;
+    top: 45px;
+   }
+   .owl-theme .owl-controls .owl-buttons div{
+    font-size: 18px;
+    background: transparent;
+    opacity: 0.5;
+   }
+   .owl-theme .owl-prev{
+    position: relative;
+    left: -45px;
+   }
+   .owl-theme .owl-next{
+    position: relative;
+    right: -45px;
+   }
+   .owl-prev:before,
+   .owl-next:before{
+    content: "\f177";
+    font-family: 'FontAwesome';
+    color: #444;
+   }
+   .owl-next:before{
+    content: "\f178";
+   }
+   @media only screen and (max-width: 480px){
+    .testimonial{
+    padding: 40px 10%;
+    }
+   }
+.footer {
+    line-height: 50px;
+}
